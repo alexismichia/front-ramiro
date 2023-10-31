@@ -1,0 +1,59 @@
+.container {
+    background-color: #ffffff; /* Fondo blanco */
+    color: #008000; /* Texto en verde */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
+    max-width: 600px;
+    margin: 0 auto;
+    font-family: Arial, sans-serif;
+  }
+  
+  h1 {
+    color: #008000; /* Texto en verde */
+    text-align: center;
+  }
+  
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  li {
+    margin-bottom: 20px;
+  }
+  
+  a {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #008000; /* Fondo verde */
+    color: #ffffff; /* Texto en blanco */
+    text-decoration: none;
+    border-radius: 4px;
+    margin-top: 10px;
+    transition: background-color 0.3s ease;
+  
+  }
+  
+  a:hover {
+    background-color: #005900; /* Cambia el color de fondo al pasar el mouse */
+  }
+  
+  /* Estilos para el cliente */
+  strong {
+    color: #008000; /* Texto en verde */
+  }
+  
+  /* Estilos para el botón "Volver a Inicio" */
+  .link-volver {
+    display: block;
+    text-align: center;
+    margin-top: 20px;
+    text-decoration: none;
+    color: #008000; /* Texto en verde */
+  }
+  
+  .link-volver:hover {
+    text-decoration: underline;
+  }
+  

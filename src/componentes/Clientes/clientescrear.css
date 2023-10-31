@@ -1,0 +1,42 @@
+/* Estilos para el componente de creación de clientes */
+.container {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 2px solid #4CAF50; /* Borde verde */
+    border-radius: 10px;
+    background-color: #ffffff; /* Fondo blanco */
+    height: auto; /* Altura ajustable */
+  }
+  
+  .form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 85%; /* Ancho total */
+  }
+  
+  input {
+    padding: 5px; /* Añade relleno interno aquí */
+    border: 1px solid #4CAF50; /* Borde verde */
+    border-radius: 5px;
+  }
+  
+  button {
+    padding: 10px 20px;
+    background-color: #4CAF50; /* Fondo verde */
+    color: #ffffff; /* Texto blanco */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #45A247; /* Cambio de color al pasar el mouse */
+  }
+  
+  .message {
+    margin-top: 10px;
+    color: #ff0000; /* Texto rojo para mensajes de error */
+  }
+  

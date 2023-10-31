@@ -1,0 +1,23 @@
+.container {
+    margin: 20px;
+    padding: 20px;
+    border: 2px solid #008000; /* Borde verde */
+    border-radius: 5px;
+  }
+  
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  li {
+    margin-bottom: 20px; /* Espacio entre elementos de la lista */
+  }
+  
+  /* Estilos para el detalle del cliente */
+  strong {
+    color: #008000; /* Texto en verde */
+  }
+  
+  /* Agrega más estilos según sea necesario */
+  

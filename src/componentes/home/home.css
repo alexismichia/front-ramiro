@@ -1,0 +1,62 @@
+/* Estilos para el contenedor principal */
+div {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  /* Estilos para el encabezado h1 */
+  h1 {
+    color: #009933; /* Verde */
+    font-size: 36px;
+  }
+  
+  /* Estilos para los contenedores de enlaces */
+  div > div {
+    margin-top: 20px;
+    border: 1px solid #009933; /* Borde verde */
+    padding: 20px;
+  }
+  
+  /* Estilos para los títulos h2 */
+  h2 {
+    color: #009933; /* Verde */
+    font-size: 24px;
+    margin-bottom: 15px;
+  }
+  
+  /* Estilos para los enlaces (links) */
+  a {
+    display: block;
+    margin: 10px 0;
+    color: #009933; /* Verde */
+    text-decoration: none;
+    font-size: 18px;
+  }
+  
+  /* Estilos para los enlaces al pasar el mouse sobre ellos */
+  a:hover {
+    text-decoration: underline;
+  }
+/* Estilos para los botones */
+a.button {
+    display: inline-block;
+    padding: 10px 20px;
+    margin-right: 10px; /* Espacio entre los botones */
+    color: white;
+    background-color: #009933; /* Verde */
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s;
+  }
+  
+  /* Estilos para los botones al pasar el mouse sobre ellos */
+  a.button:hover {
+    background-color: #006622; /* Verde más oscuro */
+  }
+  
+  /* Estilos para los botones al hacer clic */
+  a.button:active {
+    background-color: #004411; /* Verde aún más oscuro */
+  }
+    

@@ -1,0 +1,69 @@
+.container {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+    margin: 0 auto;
+  }
+  
+  h1 {
+    color: #00b300; /* Verde */
+    text-align: center;
+  }
+  
+  p {
+    font-size: 16px;
+    text-align: center; /* Centra el texto */
+  }
+  
+  strong {
+    font-weight: bold;
+  }
+  
+  form {
+    margin-top: 20px;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #00b300; /* Verde */
+  }
+  
+  input[type="date"] {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #00b300; /* Verde */
+    border-radius: 5px;
+  }
+  
+  button {
+    background-color: #00b300; /* Verde */
+    color: white; /* Texto en blanco */
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    display: block;
+    margin: 0 auto; /* Centra el botón */
+  }
+  
+  button:hover {
+    background-color: #009900; /* Verde más oscuro al pasar el mouse */
+  }
+  
+  .link-volver {
+    display: block;
+    margin-top: 10px;
+    text-align: center; /* Centra el enlace */
+    text-decoration: none;
+    color: #ffffff; /* Verde */
+  }
+  
+  .link-volver:hover {
+    color: #ffffff; /* Verde más oscuro al pasar el mouse */
+  }
+  

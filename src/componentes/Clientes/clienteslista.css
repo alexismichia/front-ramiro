@@ -1,0 +1,48 @@
+/* Estilos para la lista de clientes */
+.container {
+    padding: 20px;
+    background-color: #ffffff; /* Fondo blanco */
+    border: 1px solid #4CAF50; /* Borde verde */
+    border-radius: 5px; /* Bordes redondeados */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Sombra ligera */
+  }
+  
+  h1 {
+    font-size: 24px;
+    color: #333; /* Color de texto negro */
+    margin-bottom: 20px;
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  li {
+    margin: 0 0 20px;
+    padding: 10px;
+    border: 1px solid #4CAF50; /* Borde verde */
+    border-radius: 5px; /* Bordes redondeados */
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.05); /* Sombra muy ligera */
+  }
+  
+  strong {
+    font-weight: bold;
+    color: #4CAF50; /* Color de texto verde */
+  }
+/* Estilos para el botón de volver a inicio */
+.back-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #4CAF50; /* Fondo verde */
+    color: #ffffff; /* Texto blanco */
+    border: none;
+    border-radius: 5px; /* Bordes redondeados */
+    text-decoration: none;
+    transition: background-color 0.3s; /* Efecto de transición en el color de fondo */
+  
+    &:hover {
+      background-color: #45A247; /* Cambio de color al pasar el mouse */
+    }
+  }
+    
