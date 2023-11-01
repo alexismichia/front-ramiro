@@ -61,9 +61,9 @@ button {
   color: #ff0000; /* Color rojo para mensajes de error */
 }
 
-@media (max-width: 768px) {
+/* Estilos para dispositivos móviles en vertical */
+@media (max-width: 768px) and (orientation: portrait) {
   .container {
-   left:50%;
     width: 100%;
     height: 100vh;
     display: flex;
@@ -72,4 +72,5 @@ button {
     justify-content: center;
   }
 }
+
 
