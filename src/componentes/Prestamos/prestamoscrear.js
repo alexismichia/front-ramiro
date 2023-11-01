@@ -114,6 +114,10 @@ function CrearPrestamo() {
           ))}
         </select>
       </label>
+            <label>
+        Capital Inicial:
+        <input type="number" value={capitalInicial} onChange={(e) => setCapitalInicial(e.target.value)} />
+      </label>
       <label>
         Número de Cuotas:
         <input type="number" value={numeroCuotas} onChange={(e) => setNumeroCuotas(e.target.value)} />
@@ -130,10 +134,7 @@ function CrearPrestamo() {
         Frecuencia de Pago:
         <input type="number" value={frecuenciaPago} onChange={(e) => setFrecuenciaPago(e.target.value)} />
       </label>
-      <label>
-        Capital Inicial:
-        <input type="number" value={capitalInicial} onChange={(e) => setCapitalInicial(e.target.value)} />
-      </label>
+      
       <label>
         Duración del Préstamo (meses):
         <input type="number" value={duracionPrestamo} onChange={(e) => setDuracionPrestamo(e.target.value)} />
