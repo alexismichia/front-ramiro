@@ -8,6 +8,8 @@
   background-color: #4CAF50; /* Fondo verde principal */
   padding: 0 20px; /* Aumentar el espacio de relleno en los lados */
   text-align: center; /* Alinear el contenido al centro */
+   margin: auto;
+
 }
 
 /* Estilo del título */
