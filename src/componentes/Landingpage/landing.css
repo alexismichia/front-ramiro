@@ -63,6 +63,7 @@ button {
 
 @media (max-width: 768px) {
   .container {
+   left:50%;
     width: 100%;
     height: 100vh;
     display: flex;
