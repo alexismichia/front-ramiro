@@ -9,7 +9,7 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  height: 100vh;
+  height: 80vh;
   width:350px/* Ocupa el 100% de la altura de la pantalla */
 }
 
