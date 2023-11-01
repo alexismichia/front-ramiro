@@ -4,42 +4,33 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  background-color: #4CAF50; /* Color verde principal */
   height: 100vh;
-  padding: 20px;
+  background-color: #4CAF50; /* Fondo verde principal */
+  padding: 0 20px; /* Aumentar el espacio de relleno en los lados */
+  text-align: center; /* Alinear el contenido al centro */
 }
 
 /* Estilo del título */
 h1 {
-  font-size: 36px;
-  color: #fff; /* Texto blanco */
+  font-size: 24px; /* Reducir el tamaño del título */
+  color: #fff; /* Texto en blanco */
   margin-bottom: 20px;
 }
 
 /* Estilo de los campos de entrada */
-input {
+input, button {
   width: 100%;
   padding: 10px;
   margin: 5px 0;
-  border: 1px solid #4CAF50; /* Borde verde */
+  border: 1px solid #fff; /* Borde blanco */
   border-radius: 4px;
+  color: #4CAF50; /* Texto en verde principal */
+  background-color: #fff; /* Fondo blanco */
 }
 
 /* Estilo del botón para iniciar sesión */
 button {
   background-color: #4CAF50; /* Color verde principal */
-  color: #fff;
-  padding: 10px 20px;
-  border: none;
-  border-radius: 4px;
-  cursor: pointer;
-  font-size: 16px;
-  margin-top: 10px;
-}
-
-/* Estilo del botón de cambio de contraseña */
-.change-password-button {
-  background-color: #0073e6; /* Color azul */
   color: #fff;
   padding: 10px 20px;
   border: none;
@@ -62,18 +53,10 @@ button {
   color: #ff0000; /* Color rojo para mensajes de error */
 }
 
-/* Estilos para dispositivos móviles */
-@media (max-width: 768px) {
+/* Estilos para dispositivos móviles en vertical */
+@media (max-width: 768px) and (orientation: portrait) {
   .container {
-    padding: 50px;
-  }
-
-  h1 {
-    font-size: 24px;
-  }
-
-  input, button, .change-password-button {
-    width: 100%;
-    font-size: 14px;
+    padding: 20px; /* Aumentar el espacio de relleno en los lados */
+    text-align: center; /* Alinear el contenido al centro */
   }
 }
