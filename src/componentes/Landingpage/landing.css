@@ -60,3 +60,14 @@ button {
 .error-message {
   color: #ff0000; /* Color rojo para mensajes de error */
 }
+
+@media (max-width: 768px) {
+  .container {
+    width: 340px,
+        display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  }
+}
+
