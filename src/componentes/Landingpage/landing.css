@@ -6,6 +6,7 @@
   justify-content: center;
   height: 100vh;
   background-color: #fff; /* Fondo blanco */
+  left:50%;
 }
 
 /* Estilo del título */
