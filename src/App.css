@@ -25,7 +25,7 @@ body {
   }
 
   .componente {
-    width: 90%; /* Aumenta el ancho para que sea más grande en dispositivos móviles */
+    width: 150px; /* Aumenta el ancho para que sea más grande en dispositivos móviles */
   }
 }
 
