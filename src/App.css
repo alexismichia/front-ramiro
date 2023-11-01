@@ -26,7 +26,12 @@ body {
   }
 
   .container {
-    width: 400px; /* Aumenta el ancho para que sea más grande en dispositivos móviles */
+     display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 80vh;
+  width:400px/*/* Aumenta el ancho para que sea más grande en dispositivos móviles */
   }
 }
 
