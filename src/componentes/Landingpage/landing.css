@@ -5,14 +5,13 @@
   align-items: center;
   justify-content: center;
   height: 100vh;
-  background-color: #fff; /* Fondo blanco */
-  left:50%;
+  background-color: #4CAF50; /* Color verde principal */
 }
 
 /* Estilo del título */
 h1 {
   font-size: 36px;
-  color: #4CAF50; /* Color verde principal */
+  color: #fff; /* Texto blanco */
   margin-bottom: 20px;
 }
 
@@ -21,7 +20,7 @@ input {
   width: 100%;
   padding: 10px;
   margin: 5px 0;
-  border: 1px solid #ccc;
+  border: 1px solid #fff; /* Borde blanco */
   border-radius: 4px;
 }
 
@@ -52,7 +51,7 @@ button {
 /* Estilo del mensaje de respuesta */
 .message {
   font-size: 16px;
-  color: #4CAF50; /* Color verde para mensajes de éxito */
+  color: #fff; /* Texto blanco */
   text-align: center;
   margin-top: 10px;
 }
@@ -73,5 +72,3 @@ button {
     justify-content: center;
   }
 }
-
-
