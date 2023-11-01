@@ -1,11 +1,14 @@
 import React, { useState, useEffect } from 'react';
-import './estadisticas.css'
+import './estadisticas.css';
+
 function EstadisticasGenerales() {
   const [estadisticas, setEstadisticas] = useState(null);
 
   useEffect(() => {
-    // Realizar una solicitud GET para obtener las estadísticas generales
-    fetch('https://back-ramiro.onrender.com/estadisticas')
+    // Realizar una solicitud POST para obtener las estadísticas generales
+    fetch('https://back-ramiro.onrender.com/estadisticas', {
+      method: 'POST',
+    })
       .then((response) => {
         if (!response.ok) {
           throw new Error('Error al obtener las estadísticas generales');
