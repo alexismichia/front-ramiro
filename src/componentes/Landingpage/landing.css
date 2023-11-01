@@ -8,26 +8,26 @@
     justify-content: center;
     height: 100vh;
     background-color: #fff; /* Fondo blanco */
-  }
-  
-  /* Estilo del título */
-  h1 {
+}
+
+/* Estilo del título */
+h1 {
     font-size: 36px;
     color: #4CAF50; /* Color verde principal */
     margin-bottom: 20px;
-  }
-  
-  /* Estilo de los campos de entrada */
-  input {
+}
+
+/* Estilo de los campos de entrada */
+input {
     width: 100%;
     padding: 10px;
     margin: 5px 0;
     border: 1px solid #ccc;
     border-radius: 4px;
-  }
-  
-  /* Estilo del botón para iniciar sesión */
-  button {
+}
+
+/* Estilo del botón para iniciar sesión */
+button {
     background-color: #4CAF50; /* Color verde principal */
     color: #fff;
     padding: 10px 20px;
@@ -36,10 +36,10 @@
     cursor: pointer;
     font-size: 16px;
     margin-top: 10px;
-  }
-  
-  /* Estilo del botón de cambio de contraseña */
-  .change-password-button {
+}
+
+/* Estilo del botón de cambio de contraseña */
+.change-password-button {
     background-color: #0073e6; /* Color azul */
     color: #fff;
     padding: 10px 20px;
@@ -48,18 +48,25 @@
     cursor: pointer;
     font-size: 16px;
     margin-top: 10px;
-  }
-  
-  /* Estilo del mensaje de respuesta */
-  .message {
+}
+
+/* Estilo del mensaje de respuesta */
+.message {
     font-size: 16px;
     color: #4CAF50; /* Color verde para mensajes de éxito */
     text-align: center;
     margin-top: 10px;
-  }
-  
-  /* Estilo de mensajes de error */
-  .error-message {
+}
+
+/* Estilo de mensajes de error */
+.error-message {
     color: #ff0000; /* Color rojo para mensajes de error */
-  }
-  
+}
+
+/* Estilo adicional para dispositivos móviles (menos de 600px de ancho) */
+@media (max-width: 600px) {
+    /* Hace que los campos de entrada sean más anchos en dispositivos móviles */
+    input {
+        width: 80%;
+    }
+}
