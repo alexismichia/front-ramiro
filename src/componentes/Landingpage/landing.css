@@ -63,8 +63,8 @@ button {
 
 @media (max-width: 768px) {
   .container {
-    width: 340px,
-        display: flex;
+  width: 340px;
+  display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
