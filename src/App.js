@@ -11,7 +11,7 @@ import RealizarPagos from './componentes/Pagos/pagosregistrar';
 import PagosRealizar from './componentes/Pagos/pagorealizar';
 import CrearPrestamo from './componentes/Prestamos/prestamoscrear';
 import Amortizacion from './componentes/Prestamos/amortizacion';
-import './App.css';
+
 
 function App() {
   return (
