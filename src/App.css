@@ -1,38 +1,34 @@
-.App {
+/* Configuración global */
+body {
+  font-size: 16px; /* Tamaño de fuente base para toda la aplicación */
+}
+
+/* Estilos para centrar y ajustar tamaño en todos los componentes */
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* Ocupa el 100% de la altura de la pantalla */
+}
+
+.componente {
+  width: 80%; /* Ajusta el ancho del componente según tus necesidades */
+  max-width: 400px; /* Establece un ancho máximo para evitar que sea demasiado ancho */
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
+/* Estilos específicos para dispositivos móviles */
+@media (max-width: 768px) {
+  body {
+    font-size: 14px; /* Reduzca el tamaño de fuente base para dispositivos móviles */
+  }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+  .componente {
+    width: 90%; /* Aumenta el ancho para que sea más grande en dispositivos móviles */
   }
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
+/* Agrega cualquier estilo adicional necesario para dispositivos móviles aquí */
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
+/* Mantén tus estilos existentes para otros elementos de la aplicación */
