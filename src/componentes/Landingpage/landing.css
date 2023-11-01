@@ -64,8 +64,11 @@ button {
 @media (max-width: 768px) {
   .container {
     width: 100%;
-    text-align: center; /* Centrar el contenido en dispositivos móviles */
-    margin-top: 10vh; /* Darle un espacio en la parte superior para centrarlo verticalmente */
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
   }
 }
 
