@@ -19,13 +19,13 @@ body {
 }
 
 /* Estilos específicos para dispositivos móviles */
-@media (max-width: 768px) {
+@media (max-width: 1000px) {
   body {
     font-size: 14px; /* Reduzca el tamaño de fuente base para dispositivos móviles */
   }
 
   .componente {
-    width: 150px; /* Aumenta el ancho para que sea más grande en dispositivos móviles */
+    width: 400px; /* Aumenta el ancho para que sea más grande en dispositivos móviles */
   }
 }
 
