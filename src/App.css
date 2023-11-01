@@ -13,8 +13,8 @@ body {
 }
 
 .componente {
-  width: 80%; /* Ajusta el ancho del componente según tus necesidades */
-  max-width: 400px; /* Establece un ancho máximo para evitar que sea demasiado ancho */
+  width: 100%; /* Ajusta el ancho del componente según tus necesidades */
+  max-width: 500px; /* Establece un ancho máximo para evitar que sea demasiado ancho */
   text-align: center;
 }
 
