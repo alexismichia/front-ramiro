@@ -65,7 +65,7 @@ button {
 /* Estilos para dispositivos móviles */
 @media (max-width: 768px) {
   .container {
-    padding: 10px;
+    padding: 50px;
   }
 
   h1 {
